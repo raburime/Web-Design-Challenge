@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Columns</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="index.html">Landing Page</a>
+        </li>
+        <li>
+          <a href="data.html">Data Page</a>
+        </li>
+        <li>
+          <a href="comparison.html">Comparison Page</a>
+        </li>
+        <li>
+          <a href="LatitudeVsMaxTemp.html">Visualization Pages</a>
+        </li>
+      </ul>
+      <select id="nav-select">
+        <option value="LatitudeVsMaxTemp.html">Latitude Vs Max Temp</option>
+        <option value="LatitudeVsHumidity.html">Latitude Vs Humidity</option>
+        <option value="LatitudeVsCloudiness.html">Latitude Vs Cloudiness</option>
+        <option value="LatitudeVsWindSpeed.html">Latitude Vs Wind Speed</option>
+       </select>
+      <div class="clearfix"></div>
+    </nav>
+    
+    <div class="row">
+      <div class="col-md-3">
+      
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="LatitudeVsMaxTemp.html" alt="Latitude Vs Max Temp"><img src="Resources/assets/images/Fig1.png" height=150px width=150px></a>
+              </li>
+            </ul> 
+            <h6>Lat. Vs Max Temp</h6>
+
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="LatitudeVsHumidity.html"><img src="resources/assets/images/fig2.png"
+                  height=150px width=150px></a>
+                </li>
+            </ul>
+            <h6>Lat. Vs Humidity</h6>
+
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="LatitudeVsCloudiness.html"><img src="resources/assets/images/fig3.png"
+                  height=150px width=150px></a>
+              </li>
+            </ul>
+            <h6>Lat. V Cloudiness</h6>
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="LatitudeVsWindSpeed.html"><img src="resources/assets/images/fig4.png"
+                  height=150px width=150px></a>
+              </li>
+            </ul> 
+      </div>
+ 
+      <div class="col-md-9">
+        <div class="box skyblue">
+<h3>Latitude Analysis Dashboard with Attitude</h3>
+          <br><br>
+          Welcome to the Latitude Analysis Dashboard with Attitude.
+          <p>
+          This is a Visualization dashboard website using past visualizations. Specifically, it plots Weather data.
+          </p>
+          <p>
+            There are individual pages for each plot and users can navigate between each plot. 
+            These pages contain the visualizations and their corresponding explanations. There is also a landing page, where you can see a comparison of all of the plots, and another page where you can view the data used to build them.
+          </p>
+          <img src="images/landingResize.png" height=400px width=700px>
+
+        </div>
+
+      </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
